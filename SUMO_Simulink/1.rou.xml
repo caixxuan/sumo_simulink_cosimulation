@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/18/21 19:44:07 by Eclipse SUMO netedit Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="D:\BaiduNetdiskDownload\sumo-win64extra-1.8.0\sumo-1.8.0\file\319\1.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <route-files value="D:\BaiduNetdiskDownload\sumo-win64extra-1.8.0\sumo-1.8.0\file\319\1.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    
+	<vType id="type_0" speedFactor="1" carFollowModel="IDM" accel="0.7" decel="1" apparentDecel="0.7" emergencyDecel="3" speedDev="0.03" maxSpeed="35" lcSpeedGain="0.1"/>
+	<vType id="type_city" speedFactor="1" carFollowModel="IDM" accel="0.5" decel="1" apparentDecel="0.7" emergencyDecel="3" speedDev="0.1" maxSpeed="35" lcSpeedGain="0.1"/>
+	<vType id="type_suburb" speedFactor="1" carFollowModel="IDM" accel="0.7" decel="1" apparentDecel="0.7" emergencyDecel="3" speedDev="0.02" maxSpeed="35" lcSpeedGain="0.1"/>
+	<vType id="type_highway" speedFactor="1" carFollowModel="IDM" accel="0.9" decel="1" apparentDecel="0.7" emergencyDecel="3" speedDev="0.05" maxSpeed="35" lcSpeedGain="0.1"/>
+	<vType id="type_hilly" speedFactor="1" carFollowModel="IDM" accel="0.4" decel="1" apparentDecel="0.7" emergencyDecel="3" speedDev="0.03" maxSpeed="35" lcSpeedGain="0.1"/>
+	
+	<flow id="flow_1" type="type_city" begin="0.00" color="red" from="gneES" to="gneE4" end="20000.00" vehsPerHour="2000.00">
+	</flow>
+	<flow id="flow_2" type="type_city" begin="0.00" color="red" from="gneE5" to="gneE6" end="20000.00" vehsPerHour="2300.00"/>
+	<flow id="flow_3" type="type_city" begin="0.00" color="red" from="gneE6" to="gneE9" end="20000.00" vehsPerHour="1800.00"/>
+	<flow id="flow_4" type="type_suburb" begin="0.00" color="red" from="gneE10" to="gneE14" end="20000.00" vehsPerHour="1200.00"/>
+	<flow id="flow_5" type="type_suburb" begin="0.00" color="red" from="gneE14" to="gneE16" end="20000.00" vehsPerHour="1500.00"/>
+	<flow id="flow_6" type="type_suburb" begin="0.00" color="red" from="gneE17" to="gneE19" end="20000.00" vehsPerHour="500.00"/>
+	<flow id="flow_7" type="type_highway" begin="0.00" color="red" from="gneE20" to="gneE30" end="20000.00" vehsPerHour="2500.00"/>
+	<flow id="flow_8" type="type_highway" begin="0.00" color="red" from="gneE30" to="gneE40" end="20000.00" vehsPerHour="2600.00"/>
+	<flow id="flow_9" type="type_highway" begin="0.00" color="red" from="gneE40" to="gneE49" end="20000.00" vehsPerHour="2300.00"/>
+	<flow id="flow_10" type="type_highway" begin="0.00" color="red" from="gneE50" to="gneE59" end="20000.00" vehsPerHour="2400.00"/>
+	
+	<flow id="flow_11" type="type_hilly" begin="0.00" color="red" from="gneE60" to="gneE67" end="20000.00" vehsPerHour="500.00">
+	</flow>
+	<flow id="flow_12" type="type_hilly" begin="0.00" color="red" from="gneE68" to="gneE75" end="20000.00" vehsPerHour="600.00">
+	</flow>
+	<flow id="flow_13" type="type_hilly" begin="0.00" color="red" from="gneE74" to="gneE79" end="20000.00" vehsPerHour="700.00">
+	</flow>
+	<flow id="flow_14" type="type_hilly" begin="0.00" color="red" from="gneE80" to="gneE89" end="20000.00" vehsPerHour="700.00">
+	</flow>
+	<flow id="flow_15" type="type_hilly" begin="0.00" color="red" from="gneE90" to="gneE99" end="20000.00" vehsPerHour="700.00">
+	</flow>
+	
+	<flow id="flow_16" type="type_highway" begin="0.00" color="red" from="gneE100" to="gneE110" end="20000.00" vehsPerHour="1700.00">
+	</flow>
+	<flow id="flow_17" type="type_highway" begin="0.00" color="red" from="gneE111" to="gneE119" end="20000.00" vehsPerHour="1700.00">
+	</flow>
+		
+	<trip id="vehicle_0" depart="0" departSpeed="0" color="yellow" type="type_0" from="gneE0" to="gneE119" arrivalSpeed="0">
+	</trip>
+</routes>

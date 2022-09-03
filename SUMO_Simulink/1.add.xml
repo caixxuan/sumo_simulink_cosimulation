@@ -1,0 +1,12 @@
+<additional>
+	<busStop id="bs3" lane="gneE3_0" startPos="200" endPos="220"/>
+	<busStop id="bs65" lane="gneE65_0" startPos="200" endPos="220"/>
+	<busStop id="bs71" lane="gneE71_0" startPos="200" endPos="220"/>
+	<busStop id="bs77" lane="gneE77_0" startPos="200" endPos="220"/>
+	<busStop id="bs86" lane="gneE86_0" startPos="200" endPos="220"/>
+	<busStop id="bs95" lane="gneE95_0" startPos="200" endPos="220"/>
+	<busStop id="bs106" lane="gneE106_0" startPos="200" endPos="220"/>
+	<busStop id="bs114" lane="gneE114_0" startPos="200" endPos="220"/>
+	
+	<calibrator id="cb1" edge="gneE3" pos="350" jamThreshold="0.5"/>
+</additional>

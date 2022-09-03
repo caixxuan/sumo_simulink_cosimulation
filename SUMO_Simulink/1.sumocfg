@@ -1,0 +1,21 @@
+<configuration>
+
+    <input>
+        <net-file value="1.net.xml"/>
+        <route-files value="1.rou.xml"/>
+		<additional-files value="1.add.xml"/>
+    </input>
+
+
+    <time>
+        <begin value="0"/>
+        <end value="20000"/>
+		<step-length value="0.01"/>
+    </time>
+	
+	<gui_only>
+		<start value="t"/>
+	<quit-on-end value="t"/>
+	</gui_only>
+
+</configuration>
